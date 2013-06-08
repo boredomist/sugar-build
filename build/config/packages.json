@@ -8,6 +8,9 @@
         ],
         "ubuntu": [
             "gnome-themes-standard"
+        ],
+        "gentoo": [
+            "gnome-themes-standard"
         ]
     },
     "X": {
@@ -19,6 +22,9 @@
         ],
         "ubuntu": [
             "xserver-xorg"
+        ],
+        "gentoo": [
+            "xorg-server"
         ]
     },
     "Xephyr": {
@@ -30,6 +36,9 @@
         ],
         "ubuntu": [
             "xserver-xephyr"
+        ],
+        "gentoo": [
+            "# You need to set the xephyr USE flag for xorg-server"
         ]
     },
     "Xvfb": {
@@ -41,6 +50,9 @@
         ],
         "ubuntu": [
             "xvfb"
+        ],
+        "gentoo": [
+            "# You need to set the xvfb USE flag on xorg-server"
         ]
     },
     "aclocal": {
@@ -51,6 +63,9 @@
             "automake"
         ],
         "ubuntu": [
+            "automake"
+        ],
+        "gentoo": [
             "automake"
         ]
     },
@@ -63,6 +78,9 @@
         ],
         "ubuntu": [
             "libasound2-dev"
+        ],
+        "gentoo": [
+            "alsa-lib"
         ]
     },
     "asn1Parser": {
@@ -71,6 +89,9 @@
         ],
         "fedora": [
             "libtasn1-tools"
+        ],
+        "gentoo": [
+            "libtasn1"
         ]
     },
     "atk-bridge": {
@@ -82,6 +103,9 @@
         ],
         "ubuntu": [
             "libatk-adaptor"
+        ],
+        "gentoo": [
+            "app-accessibility/at-spi2-atk"
         ]
     },
     "atk-bridge-2.0": {
@@ -98,6 +122,9 @@
         ],
         "ubuntu": [
             "gir1.2-atspi-2.0"
+        ],
+        "gentoo": [
+            "at-spi-core"
         ]
     },
     "autodetect gstreamer": {
@@ -120,6 +147,10 @@
         ],
         "ubuntu": [
             "autoconf"
+        ],
+        "gentoo": [
+            "sys-devel/autoconf"
+
         ]
     },
     "base-system": {
@@ -267,6 +298,8 @@
             "diffutils",
             "grep",
             "ncurses-base"
+        ],
+        "gentoo": [
         ]
     },
     "bison": {
@@ -278,6 +311,9 @@
         ],
         "ubuntu": [
             "bison"
+        ],
+        "gentoo": [
+            "sys-devel/bison"
         ]
     },
     "c++": {
@@ -300,6 +336,9 @@
         ],
         "ubuntu": [
             "python-gi-cairo"
+        ],
+        "gentoo": [
+            "dev-python/pycairo"
         ]
     },
     "cairo typelib": {
@@ -311,6 +350,9 @@
         ],
         "ubuntu": [
             "gir1.2-freedesktop"
+        ],
+        "gentoo": [
+            "dev-libs/gobject-introspection"
         ]
     },
     "cairo-gobject": {
@@ -322,6 +364,9 @@
         ],
         "ubuntu": [
             "libcairo2-dev"
+        ],
+        "gentoo": [
+            "x11-libs/cairo"
         ]
     },
     "ccache": {
@@ -333,6 +378,9 @@
         ],
         "ubuntu": [
             "ccache"
+        ],
+        "gentoo": [
+            "dev-util/ccache"
         ]
     },
     "dateutil python": {
@@ -343,6 +391,9 @@
             "python-dateutil"
         ],
         "ubuntu": [
+            "python-dateutil"
+        ],
+        "gentoo": [
             "python-dateutil"
         ]
     },
@@ -355,6 +406,9 @@
         ],
         "ubuntu": [
             "libdbus-glib-1-dev"
+        ],
+        "gentoo": [
+            "sys-apps/dbus"
         ]
     },
     "dbus-launch": {
@@ -377,6 +431,9 @@
         ],
         "ubuntu": [
             "dconf-tools"
+        ],
+        "gentoo": [
+            "gnome-base/dconf"
         ]
     },
     "decorator python": {
@@ -388,6 +445,9 @@
         ],
         "ubuntu": [
             "python-decorator"
+        ],
+        "gentoo": [
+            "dev-python/decorator"
         ]
     },
     "espeak": {
@@ -399,6 +459,9 @@
         ],
         "ubuntu": [
             "espeak"
+        ],
+        "gentoo": [
+            "app-accessibility/espeak"
         ]
     },
     "espeak devel": {
@@ -421,6 +484,9 @@
         ],
         "ubuntu": [
             "gir1.2-evince-3.0"
+        ],
+        "gentoo": [
+            "dev-python/evince-python"
         ]
     },
     "flex": {
@@ -432,6 +498,9 @@
         ],
         "ubuntu": [
             "flex"
+        ],
+        "gentoo": [
+            "sys-devel/flex"
         ]
     },
     "gail": {
@@ -443,6 +512,9 @@
         ],
         "ubuntu": [
             "libgail-dev"
+        ],
+        "gentoo": [
+            "gnome-extra/libgail-gnome"
         ]
     },
     "gail3": {
@@ -476,6 +548,9 @@
         ],
         "ubuntu": [
             "python-gconf"
+        ],
+        "gentoo": [
+            "dev-python/gconf-python"
         ]
     },
     "gconf typelib": {
@@ -498,6 +573,9 @@
         ],
         "ubuntu": [
             "libgconf2-dev"
+        ],
+        "gentoo": [
+            "gnome-base/gconf"
         ]
     },
     "geoclue": {
@@ -520,6 +598,9 @@
         ],
         "ubuntu": [
             "python-gobject-2"
+        ],
+        "gentoo": [
+            "dev-python/pyobject:3"
         ]
     },
     "glib-2.0": {
@@ -542,6 +623,9 @@
         ],
         "ubuntu": [
             "gnome-common"
+        ],
+        "gentoo": [
+            "gnome-base/gnome-common"
         ]
     },
     "gnome-keyring-daemon": {
@@ -553,6 +637,9 @@
         ],
         "ubuntu": [
             "gnome-keyring"
+        ],
+        "gentoo": [
+            "gnome-base/gnome-keyring"
         ]
     },
     "gobject-introspection-1.0": {
@@ -564,6 +651,9 @@
         ],
         "ubuntu": [
             "libgirepository1.0-dev"
+        ],
+        "gentoo": [
+            "dev-libs/gobject-introspection"
         ]
     },
     "gperf": {
@@ -586,6 +676,9 @@
         ],
         "ubuntu": [
             "gsettings-desktop-schemas-dev"
+        ],
+        "gentoo": [
+            "gnome-base/gsettings-desktop-schemas"
         ]
     },
     "gst typelib": {
@@ -630,6 +723,9 @@
         ],
         "ubuntu": [
             "libgtk2.0-dev"
+        ],
+        "gentoo": [
+            "x11-libs/gtk+:2"
         ]
     },
     "gtk+-3.0": {
@@ -641,6 +737,9 @@
         ],
         "ubuntu": [
             "libgtk-3-dev"
+        ],
+        "gentoo": [
+            "x11-libs/gtk+3"
         ]
     },
     "gtk-doc": {
@@ -652,6 +751,9 @@
         ],
         "ubuntu": [
             "gtk-doc-tools"
+        ],
+        "gentoo": [
+            "dev-util/gtk-doc"
         ]
     },
     "gtksource typelib": {
@@ -663,6 +765,9 @@
         ],
         "ubuntu": [
             "gir1.2-gtksource-3.0"
+        ],
+        "gentoo": [
+            "x11-libs/gtksourceview"
         ]
     },
     "ice": {
@@ -674,6 +779,9 @@
         ],
         "ubuntu": [
             "libice-dev"
+        ],
+        "gentoo": [
+            "x11-libs/libICE"
         ]
     },
     "icon-naming-utils": {
@@ -685,6 +793,9 @@
         ],
         "ubuntu": [
             "icon-naming-utils"
+        ],
+        "gentoo": [
+            "x11-misc/icon-naming-utils"
         ]
     },
     "icon-slicer": {
@@ -696,6 +807,9 @@
         ],
         "ubuntu": [
             "icon-slicer"
+        ],
+        "gentoo": [
+            "media-gfx/icon-slicer"
         ]
     },
     "icu": {
@@ -707,6 +821,9 @@
         ],
         "ubuntu": [
             "libicu-dev"
+        ],
+        "gentoo": [
+            "dev-libs/icu"
         ]
     },
     "intltoolize": {
@@ -718,6 +835,9 @@
         ],
         "ubuntu": [
             "intltool"
+        ],
+        "gentoo": [
+            "dev-util/intltool"
         ]
     },
     "iso-codes": {
@@ -729,6 +849,9 @@
         ],
         "ubuntu": [
             "iso-codes"
+        ],
+        "gentoo": [
+            "app-text/iso-codes"
         ]
     },
     "libcanberra-gtk": {
@@ -740,6 +863,9 @@
         ],
         "ubuntu": [
             "libcanberra-gtk-dev"
+        ],
+        "gentoo": [
+            "media-libs/libcanberra"
         ]
     },
     "libgcr": {
@@ -748,6 +874,9 @@
         ],
         "fedora": [
             "gcr-devel"
+        ],
+        "gentoo": [
+            "app-crypt/gcr"
         ]
     },
     "libgcrypt": {
@@ -756,6 +885,9 @@
         ],
         "fedora": [
             "libgcrypt-devel"
+        ],
+        "gentoo": [
+            "dev-libs/libgcrypt"
         ]
     },
     "libjpeg": {
@@ -767,6 +899,9 @@
         ],
         "ubuntu": [
             "libjpeg8-dev"
+        ],
+        "gentoo": [
+            "virtual/jpeg"
         ]
     },
     "librsvg-2.0": {
@@ -778,6 +913,9 @@
         ],
         "ubuntu": [
             "librsvg2-dev"
+        ],
+        "gentoo": [
+            "gnome-base/librsvg"
         ]
     },
     "libsecret": {
@@ -786,6 +924,9 @@
         ],
         "ubuntu": [
             "libsecret-1-dev"
+        ],
+        "gentoo": [
+            "app-crypt/libsecret"
         ]
     },
     "libtasn1": {
@@ -794,6 +935,9 @@
         ],
         "fedora": [
             "libtasn1-devel"
+        ],
+        "gentoo": [
+            "dev-libs/libtasn1"
         ]
     },
     "libtool": {
@@ -805,6 +949,9 @@
         ],
         "ubuntu": [
             "libtool"
+        ],
+        "gentoo": [
+            "sys-devel/libtool"
         ]
     },
     "libwebp": {
@@ -816,6 +963,9 @@
         ],
         "ubuntu": [
             "libwebp-dev"
+        ],
+        "gentoo": [
+            "media-libs/libwebp"
         ]
     },
     "libxml-2.0": {
@@ -827,6 +977,9 @@
         ],
         "ubuntu": [
             "libxml2-dev"
+        ],
+        "gentoo": [
+            "dev-libs/libxml2"
         ]
     },
     "libxslt": {
@@ -838,6 +991,9 @@
         ],
         "ubuntu": [
             "libxslt1-dev"
+        ],
+        "gentoo": [
+            "dev-libs/libxslt"
         ]
     },
     "makeinfo": {
@@ -849,6 +1005,9 @@
         ],
         "ubuntu": [
             "texinfo"
+        ],
+        "gentoo": [
+            "sys-apps/texinfo"
         ]
     },
     "metacity": {
@@ -860,6 +1019,9 @@
         ],
         "ubuntu": [
             "metacity"
+        ],
+        "gentoo": [
+            "x11-wm/metacity"
         ]
     },
     "network-manager": {
@@ -871,11 +1033,17 @@
         ],
         "ubuntu": [
             "network-manager"
+        ],
+        "gentoo": [
+            "net-misc/networkmanager"
         ]
     },
     "node": {
         "fedora": [
             "nodejs"
+        ],
+        "gentoo": [
+            "net-libs/nodejs"
         ]
     },
     "npm": {
@@ -892,6 +1060,9 @@
         ],
         "ubuntu": [
             "at-spi2-core"
+        ],
+        "gentoo": [
+            "app-accessibility/at-spi2-core"
         ]
     },
     "org.freedesktop.Telepathy.AccountManager": {
@@ -903,6 +1074,9 @@
         ],
         "ubuntu": [
             "telepathy-mission-control-5"
+        ],
+        "gentoo": [
+            "net-im/telepathy-mission-control"
         ]
     },
     "org.freedesktop.Telepathy.ConnectionManager.gabble": {
@@ -914,6 +1088,9 @@
         ],
         "ubuntu": [
             "telepathy-gabble"
+        ],
+        "gentoo": [
+            "net-voip/telepathy-gabble"
         ]
     },
     "org.freedesktop.Telepathy.ConnectionManager.salut": {
@@ -925,6 +1102,9 @@
         ],
         "ubuntu": [
             "telepathy-salut"
+        ],
+        "gentoo": [
+            "net-voip/telepathy-salut"
         ]
     },
     "pango gstreamer": {
@@ -936,6 +1116,9 @@
         ],
         "ubuntu": [
             "gstreamer1.0-x"
+        ],
+        "gentoo": [
+            "media-plugins/gst-plugins-pango"
         ]
     },
     "pep8": {
@@ -947,6 +1130,9 @@
         ],
         "ubuntu": [
             "pep8"
+        ],
+        "gentoo": [
+            "dev-python/pep8"
         ]
     },
     "pkg-config": {
@@ -958,6 +1144,9 @@
         ],
         "ubuntu": [
             "pkg-config"
+        ],
+        "gentoo": [
+            "virtual/pkgconfig"
         ]
     },
     "playback gstreamer": {
@@ -969,6 +1158,9 @@
         ],
         "ubuntu": [
             "gstreamer1.0-plugins-base"
+        ],
+        "gentoo": [
+            "media-libs/gst-plugins-base"
         ]
     },
     "pycairo": {
@@ -980,6 +1172,9 @@
         ],
         "ubuntu": [
             "python-cairo-dev"
+        ],
+        "gentoo": [
+            "dev-python/pycairo"
         ]
     },
     "pyflakes": {
@@ -991,6 +1186,9 @@
         ],
         "ubuntu": [
             "pyflakes"
+        ],
+        "gentoo": [
+            "dev-python/pyflakes"
         ]
     },
     "pygments": {
@@ -1002,6 +1200,9 @@
         ],
         "ubuntu": [
             "python-pygments"
+        ],
+        "gentoo": [
+            "dev-python/pygments"
         ]
     },
     "python": {
@@ -1013,6 +1214,9 @@
         ],
         "ubuntu": [
             "python-dev"
+        ],
+        "gentoo": [
+            "dev-lang/python:2.7"
         ]
     },
     "ragel": {
@@ -1024,6 +1228,9 @@
         ],
         "ubuntu": [
             "ragel"
+        ],
+        "gentoo": [
+            "dev-util/ragel"
         ]
     },
     "ruby": {
@@ -1035,6 +1242,9 @@
         ],
         "ubuntu": [
             "ruby"
+        ],
+        "gentoo": [
+            "dev-lang/ruby"
         ]
     },
     "sm": {
@@ -1046,6 +1256,9 @@
         ],
         "ubuntu": [
             "libsm-dev"
+        ],
+        "gentoo": [
+            "x11-libs/libSM"
         ]
     },
     "sqlite3": {
@@ -1057,6 +1270,9 @@
         ],
         "ubuntu": [
             "libsqlite3-dev"
+        ],
+        "gentoo": [
+            "dev-db/sqlite:3"
         ]
     },
     "tar": {
@@ -1068,6 +1284,9 @@
         ],
         "ubuntu": [
             "tar"
+        ],
+        "gentoo": [
+            "app-arch/tar"
         ]
     },
     "telepathy python": {
@@ -1079,6 +1298,9 @@
         ],
         "ubuntu": [
             "python-telepathy"
+        ],
+        "gentoo": [
+            "dev-python/telepathy-python"
         ]
     },
     "telepathy-glib": {
@@ -1090,6 +1312,9 @@
         ],
         "ubuntu": [
             "libtelepathy-glib-dev"
+        ],
+        "gentoo": [
+            "net-libs/telepathy-glib"
         ]
     },
     "time": {
@@ -1101,6 +1326,9 @@
         ],
         "ubuntu": [
             "time"
+        ],
+        "gentoo": [
+            "sys-apps/time"
         ]
     },
     "vte typelib": {
@@ -1112,6 +1340,9 @@
         ],
         "ubuntu": [
             "gir1.2-vte-2.90"
+        ],
+        "gentoo": [
+            "x11-libs/vte"
         ]
     },
     "webkit typelib": {
@@ -1123,6 +1354,9 @@
         ],
         "ubuntu": [
             "gir1.2-webkit-3.0"
+        ],
+        "gentoo": [
+            "net-libs/webkit-gtk:3"
         ]
     },
     "webkit2 typelib": {
@@ -1139,6 +1373,9 @@
         ],
         "ubuntu": [
             "gir1.2-wnck-3.0"
+        ],
+        "gentoo": [
+            "x11-libs/libwnck"
         ]
     },
     "x11": {
@@ -1150,6 +1387,9 @@
         ],
         "ubuntu": [
             "libx11-dev"
+        ],
+        "gentoo": [
+            "x11-libs/libX11"
         ]
     },
     "xapian python": {
@@ -1161,6 +1401,9 @@
         ],
         "ubuntu": [
             "python-xapian"
+        ],
+        "gentoo": [
+            "dev-libs/xapian-bindings"
         ]
     },
     "xcursorgen": {
@@ -1172,6 +1415,9 @@
         ],
         "ubuntu": [
             "x11-apps"
+        ],
+        "gentoo": [
+            "x11-apps/xcursorgen"
         ]
     },
     "xdg-user-dirs-update": {
@@ -1183,6 +1429,9 @@
         ],
         "ubuntu": [
             "xdg-user-dirs"
+        ],
+        "gentoo": [
+            "x11-misc/xdg-user-dirs"
         ]
     },
     "xdpyinfo": {
@@ -1194,6 +1443,9 @@
         ],
         "ubuntu": [
             "x11-utils"
+        ],
+        "gentoo": [
+            "x11-apps/xdpyinfo"
         ]
     },
     "xinit": {
@@ -1205,6 +1457,9 @@
         ],
         "ubuntu": [
             "xinit"
+        ],
+        "gentoo": [
+            "x11-apps/xinit"
         ]
     },
     "xkbfile": {
@@ -1216,6 +1471,9 @@
         ],
         "ubuntu": [
             "libxkbfile-dev"
+        ],
+        "gentoo": [
+            "x11-libs/libxkbfile"
         ]
     },
     "xkl typelib": {
@@ -1227,6 +1485,9 @@
         ],
         "ubuntu": [
             "gir1.2-xkl-1.0"
+        ],
+        "gentoo": [
+            "x11-libs/libxklavier"
         ]
     },
     "xrandr": {
@@ -1238,6 +1499,9 @@
         ],
         "ubuntu": [
             "libxrandr-dev"
+        ],
+        "gentoo": [
+            "x11-libs/libXrandr"
         ]
     },
     "xrdb": {
@@ -1249,6 +1513,9 @@
         ],
         "ubuntu": [
             "x11-xserver-utils"
+        ],
+        "gentoo": [
+            "x11-apps/xrdb"
         ]
     },
     "xt": {
@@ -1260,6 +1527,9 @@
         ],
         "ubuntu": [
             "libxt-dev"
+        ],
+        "gentoo": [
+            "x11-libs/libXt"
         ]
     },
     "xtst": {
@@ -1271,6 +1541,9 @@
         ],
         "ubuntu": [
             "libxtst-dev"
+        ],
+        "gentoo": [
+            "x11-libs/libXtst"
         ]
     },
     "xz": {
@@ -1282,6 +1555,9 @@
         ],
         "ubuntu": [
             "xz-utils"
+        ],
+        "gentoo": [
+            "app-arch/xz-utils"
         ]
     },
     "yasm": {
@@ -1293,6 +1569,9 @@
         ],
         "ubuntu": [
             "yasm"
+        ],
+        "gentoo": [
+            "dev-lang/yasm"
         ]
     }
 }
