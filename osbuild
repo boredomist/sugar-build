@@ -69,13 +69,14 @@ def create_virtualenv():
 
     subprocess.check_call(["python",
                            os.path.join(source_dir, "virtualenv.py"),
+                           "-p", "python2.7",
                            "-q", "--system-site-packages",
                            get_virtualenv_dir()])
 
 
 def install_osbuild():
     subprocess.check_call([get_bin_path("pip"), "-q", "install",
-                           "git+git://github.com/dnarvaez/osbuild"])
+                           "git+git://github.com/boredomist/osbuild"])
 
 
 def check_stamp():
@@ -186,7 +187,7 @@ def main():
 
     build_virtualenv = not os.path.exists(get_virtualenv_dir())
 
-    if "dnarvaez/osbuild" in changed:
+    if "boredomist/osbuild" in changed:
         build_virtualenv = True
 
     if build_virtualenv or check_exception:
