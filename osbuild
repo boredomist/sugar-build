@@ -97,7 +97,7 @@ def check_stamp():
     except (IOError, ValueError):
         pass
 
-    for repo in main_repo, "dnarvaez/osbuild":
+    for repo in main_repo, "boredomist/osbuild":
         url = "https://api.github.com/repos/%s/branches/master" % repo
         headers = {}
 
