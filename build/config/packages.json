@@ -489,7 +489,7 @@
             "gir1.2-evince-3.0"
         ],
         "gentoo": [
-            "dev-python/evince-python"
+            ">=app-text/evince-3.6.1"
         ]
     },
     "flex": {
@@ -1127,7 +1127,7 @@
             "gstreamer1.0-x"
         ],
         "gentoo": [
-            "media-plugins/gst-plugins-pango:1.0"
+            "media-plugins/gst-plugins-pango"
         ]
     },
     "pep8": {
@@ -1169,7 +1169,7 @@
             "gstreamer1.0-plugins-base"
         ],
         "gentoo": [
-            "media-libs/gst-plugins-base:1"
+            "media-libs/gst-plugins-base:1.0"
         ]
     },
     "pycairo": {

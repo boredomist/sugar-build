@@ -110,7 +110,7 @@
         "tag": "0.9.16"
     },
     {
-        "if": "distro != 'fedora-19'",
+        "if": "distro != 'fedora-19' and not distro.startswith('gentoo')",
         "name": "webkitgtk",
         "options": [
             "--enable-introspection"
